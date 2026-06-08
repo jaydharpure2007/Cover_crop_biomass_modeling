@@ -55,14 +55,5 @@ class ANNModel(nn.Module):
         """
         Perform a forward pass through the network.
 
-        Parameters
-        ----------
-        x : torch.Tensor
-            Input feature tensor.
-
-        Returns
-        -------
-        torch.Tensor
-            Predicted biomass values.
         """
         return self.net(x)

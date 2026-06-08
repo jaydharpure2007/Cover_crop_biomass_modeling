@@ -15,26 +15,6 @@ def compute_shap(final_model, X_train, feature_names, device):
     """
     Compute mean absolute SHAP values for model features.
 
-    Parameters
-    ----------
-    final_model : torch.nn.Module
-        Trained ANN model.
-
-    X_train : numpy.ndarray
-        Training features used as background and
-        evaluation data.
-
-    feature_names : list
-        Names of predictor variables.
-
-    device : torch.device
-        CPU or GPU device used for inference.
-
-    Returns
-    -------
-    numpy.ndarray
-        Mean absolute SHAP importance values for
-        each feature.
     """
 
     # Set model to evaluation mode
