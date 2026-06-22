@@ -11,9 +11,6 @@ The repository was developed to support reproducible analysis associated with th
 ---
 ## Workflow Overview
 
-The overall modeling workflow is shown below:
-
-
 <p align="center">
 <img src="images/Overall workflow.png" width="850">
 </p>
