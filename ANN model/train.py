@@ -13,10 +13,12 @@ import numpy as np
 from sklearn.model_selection import KFold
 from utils import prepare_dataloader
 from model import ANNModel
+from config import *
 from sklearn.metrics import (
     mean_squared_error,
     r2_score
 )
+
 def train_model(
     model,
     criterion,
@@ -95,7 +97,7 @@ def objective(trial, X_train, y_train, device, scaler_y, seed = 42):
     patience = trial.suggest_int("patience", 10, 20)
 
     # Cross-validation setup
-    kf = KFold(n_splits=5, shuffle=True, random_state=42)
+    kf = KFold(n_splits=N_SPLITS, shuffle=True, random_state=42)
     rmses, r2s, best_epochs = [], [], []
 
     for train_idx, val_idx in kf.split(X_train):
