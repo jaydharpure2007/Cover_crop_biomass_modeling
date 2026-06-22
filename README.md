@@ -13,7 +13,7 @@ The repository was developed to support reproducible analysis associated with th
 
 The overall modeling workflow is shown below:
 
-![Overall workflow](images/Overall workflow.png)
+![Figure](images/Overall workflow.png)
 
 ## ANN Repository Structure
 
