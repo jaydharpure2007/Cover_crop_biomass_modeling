@@ -175,7 +175,7 @@ Outputs are saved as Excel files inside the `outputs/` directory.
 If you use this repository, please cite:
 
 ```text
-[]
+Dharpure, J.K., Cobos, C., Baath, G.S., Burke, J.A., DeLaune, P.B., Lewis, K.L., 2026. Cover Crop Biomass Estimation using UAV-Based Multispectral Feature Fusion and Machine Learning. Smart Agricultural Technology, 102350. https://doi.org/10.1016/j.atech.2026.102350
 ```
 
 ---
