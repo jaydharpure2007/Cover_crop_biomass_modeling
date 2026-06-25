@@ -6,7 +6,7 @@ This repository contains Python scripts for cover crop aboveground biomass (AGB)
 
 The repository was developed to support reproducible analysis associated with the manuscript:
 
-> *[Cover Crop Biomass Estimation using UAV-Based Multispectral Feature Fusion and Machine Learning]*
+> *[Cover crop biomass estimation using UAV-based multispectral feature fusion and machine learning](https://doi.org/10.1016/j.atech.2026.102350)*
 
 ---
 ## Workflow Overview
