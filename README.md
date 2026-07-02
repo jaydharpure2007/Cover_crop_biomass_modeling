@@ -86,7 +86,7 @@ project/
 Clone the repository:
 
 ```bash
-git clone https://github.com/jaydharpure2007/Cover_crop_biomass.git
+git clone https://github.com/jaydharpure2007/Cover_crop_biomass_modeling.git
 cd Cover_crop_biomass
 ```
 
